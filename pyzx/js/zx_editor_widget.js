@@ -30,7 +30,7 @@ define('make_editor', ['d3'], function(d3) {
 
     function edgeColor(t,selected) {
         if (selected) return "#083bd4";
-        if (t == 1) return "black";
+        if (t == 1) return "white";
         else if (t == 2) return "#08f";
     }
 
