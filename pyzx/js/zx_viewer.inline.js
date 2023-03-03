@@ -16,7 +16,7 @@
 
 // styling functions
 function nodeColor(t) {
-    if (t == 0) return "black";
+    if (t == 0) return "white";
     else if (t == 1) return "#ccffcc";
     else if (t == 2) return "#ff8888";
     else if (t == 3) return "yellow";
