@@ -27,7 +27,7 @@ define('zx_viewer', ['d3'], function(d3) {
     }
 
     function edgeColor(t) {
-        if (t == 1) return "black";
+        if (t == 1) return "white";
         else if (t == 2) return "#08f";
     }
 
@@ -156,7 +156,7 @@ define('zx_viewer', ['d3'], function(d3) {
             .attr("text-anchor", "middle")
             .attr("font-size", "12px")
             .attr("font-family", "monospace")
-            .attr("fill", "#00d")
+            .attr("fill", "#f3f6f4")
             .attr('style', 'pointer-events: none; user-select: none;');
 
         if (show_labels) {
