@@ -25,7 +25,7 @@ function nodeColor(t) {
 }
 
 function edgeColor(t) {
-    if (t == 1) return "black";
+    if (t == 1) return "white";
     else if (t == 2) return "#08f";
     else if (t == 3) return "gray";
 }
@@ -164,7 +164,7 @@ function showGraph(tag, graph, width, height, scale, node_size, auto_hbox, show_
         .attr("text-anchor", "middle")
         .attr("font-size", "12px")
         .attr("font-family", "monospace")
-        .attr("fill", "#00d")
+        .attr("fill", "#f3f6f4")
         .attr('style', 'pointer-events: none; user-select: none;');
 
     if (show_labels) {
