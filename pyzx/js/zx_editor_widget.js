@@ -22,13 +22,13 @@ define('make_editor', ['d3'], function(d3) {
         
     // styling functions
     function nodeColor(t) {
-        if (t == 0) return "black";
+        if (t == 0) return "white";
         else if (t == 1) return "#ccffcc";
         else if (t == 2) return "#ff8888";
         else if (t == 3) return "yellow";
     }
 
-    function edgeColor(t,selected) {
+    function edgeColor(t, selected) {
         if (selected) return "#083bd4";
         if (t == 1) return "white";
         else if (t == 2) return "#08f";
